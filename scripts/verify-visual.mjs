@@ -6,7 +6,7 @@ const targets = [
   { name: 'mobile', width: 390, height: 844 },
 ];
 
-const url = process.env.VISUAL_URL || 'http://127.0.0.1:4173';
+const url = process.env.VISUAL_URL || 'https://syed-furqan-portfolio.vercel.app';
 
 function hasNonBlankPixels(pixelData) {
   let visiblePixels = 0;

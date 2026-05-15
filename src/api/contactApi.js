@@ -1,5 +1,5 @@
 const API_BASE_URL = (
-  import.meta.env.VITE_API_BASE_URL || 'https://syed-furqan-portfolio-backend-production.up.railway.app/api'
+  import.meta.env.VITE_API_BASE_URL || 'https://syed-furqan-portfolio-backend-production-715c.up.railway.app/api'
 ).replace(/\/+$/, '');
 
 export async function sendContactMessage(payload) {
