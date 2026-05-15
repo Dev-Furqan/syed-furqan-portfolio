@@ -1,4 +1,6 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://syed-furqan-portfolio-backend-production.up.railway.app/api';
+const API_BASE_URL = (
+  import.meta.env.VITE_API_BASE_URL || 'https://syed-furqan-portfolio-backend-production.up.railway.app/api'
+).replace(/\/+$/, '');
 
 export async function sendContactMessage(payload) {
   const response = await fetch(`${API_BASE_URL}/contact`, {
