@@ -174,3 +174,5 @@ canvas {
 html, body, #root { background: #fff !important; color: #111 !important; }
 .portfolio-shell, .portfolio-shell main, .portfolio-shell .section { background-color: #fff; }
 .portfolio-shell .pale-section { background-color: #faf7f8; }
+.portfolio-shell .testimonial { background-color: #8b1e3f; color: #fff; }
+.portfolio-shell .contact { background-color: #171113; color: #fff; }
