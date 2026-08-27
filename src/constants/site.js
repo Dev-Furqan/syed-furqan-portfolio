@@ -12,7 +12,7 @@ export const SITE = {
 };
 
 export const HelmetData = {
-  title: 'Syed Furqan Ahmed | MERN, WordPress & WooCommerce Developer',
+  title: 'Syed Furqan | Full Stack Developer & AI Engineer',
 };
 
 export const NAV_LINKS = [
